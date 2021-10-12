@@ -268,7 +268,7 @@ async def about(client, message):
                         "💡Source Code", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
                 ],
                 [
-                    InlineKeyboardButton("🔙Back", callback_data="help_data"),
+                    InlineKeyboardButton("🔖Back", callback_data="help_data"),
                     InlineKeyboardButton("🔒Close", callback_data="close_data"),
                 ]                
             ]
