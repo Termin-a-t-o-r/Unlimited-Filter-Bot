@@ -248,7 +248,7 @@ async def help(client, message):
                 ],
                 [
                     InlineKeyboardButton("😎 Creator", url="https://t.me/Termin_a_t_o_r"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
+                    InlineKeyboardButton("💡 Source Code", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
                 ]
             ]
         ),
@@ -265,11 +265,11 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "💡SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                        "💡 Source Code", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
                 ],
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("🔙BACK", callback_data="help_data"),
+                    InlineKeyboardButton("🔒CLOSE", callback_data="close_data"),
                 ]                
             ]
         ),
